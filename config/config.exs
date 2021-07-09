@@ -13,10 +13,10 @@ config :phoenix_sample,
 # Configures the endpoint
 config :phoenix_sample, PhoenixSampleWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "5p6bnlG9bt3Yptpzfny0HHRG+D2LqbmLR2P7q078nZdKXEtCbBWGeJo/TtedkBqC",
+  secret_key_base: "pFHtOhGgtn1oS8G43cT4URwnL+ggS53cozK+gpJshCoSb5vUZdbHAoi+zgTAq3f9",
   render_errors: [view: PhoenixSampleWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: PhoenixSample.PubSub,
-  live_view: [signing_salt: "XjkJmIBN"]
+  live_view: [signing_salt: "8feqDrKT"]
 
 # Configures Elixir's Logger
 config :logger, :console,

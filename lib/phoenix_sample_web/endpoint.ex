@@ -7,7 +7,7 @@ defmodule PhoenixSampleWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_phoenix_sample_key",
-    signing_salt: "+b6h4bMg"
+    signing_salt: "cCW/VpqR"
   ]
 
   socket "/socket", PhoenixSampleWeb.UserSocket,
